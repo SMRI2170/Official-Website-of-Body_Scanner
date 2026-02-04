@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brain Joke Maker - Reveal Your Subconscious</title>
-    <meta name="description" content="Brain Joke Maker is the ultimate entertainment app that visualizes what's inside your Brain, Heart, Eyes, Ears, and Hands. Try Solo or Pair Mode!">
+    <title>脳内ジョークメーカー - あなたの深層心理を暴く</title>
+    <meta name="description" content="脳内ジョークメーカーは、あなたの脳、心臓、目、耳、手の中にあるものを可視化する究極のエンターテインメントアプリです。ソロモードやペア診断で楽しもう！">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
-        body { font-family: 'Inter', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-900">
@@ -19,14 +19,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-2">
                 <i class="fas fa-brain text-purple-600 text-3xl"></i>
-                <span class="text-xl font-bold tracking-tight">Brain Joke Maker</span>
+                <span class="text-xl font-bold tracking-tight">脳内ジョークメーカー</span>
             </div>
             <nav class="hidden md:flex space-x-8">
-                <a href="#features" class="text-gray-600 hover:text-purple-600 font-medium">Features</a>
-                <a href="support.html" class="text-gray-600 hover:text-purple-600 font-medium">Support</a>
+                <a href="#features" class="text-gray-600 hover:text-purple-600 font-medium">機能紹介</a>
+                <a href="support.html" class="text-gray-600 hover:text-purple-600 font-medium">サポート</a>
             </nav>
             <a href="#download" class="bg-purple-600 text-white px-5 py-2 rounded-full font-bold hover:bg-purple-700 transition">
-                Download
+                ダウンロード
             </a>
         </div>
     </header>
@@ -34,13 +34,13 @@
     <!-- Hero Section -->
     <section class="pt-32 pb-20 bg-gradient-to-br from-purple-50 to-pink-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-5xl md:text-7xl font-black text-gray-900 mb-6 tracking-tight">
-                What's Inside<br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">Your Head?</span>
+            <h1 class="text-4xl md:text-7xl font-black text-gray-900 mb-6 tracking-tight leading-tight">
+                あなたの頭の中、<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">覗いてみませんか？</span>
             </h1>
-            <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-                Just enter your name. We analyze your Brain, Eyes, Heart, Ears, and Hands. 
-                Discover your hidden subconscious with our advanced (and hilarious) scanning algorithm.
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+                名前を入力するだけ。脳、心臓、目、耳、そして手の中まで。<br class="hidden md:inline">
+                高度な（そして笑える）分析アルゴリズムで、あなたの隠された深層心理を明らかにします。
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4" id="download">
                 <button class="bg-black text-white px-8 py-4 rounded-xl flex items-center justify-center gap-3 hover:opacity-80 transition">
@@ -63,7 +63,7 @@
             <div class="mt-16 flex justify-center">
                 <div class="relative">
                     <div class="absolute inset-0 bg-purple-500 blur-3xl opacity-20 rounded-full"></div>
-                    <img src="https://placehold.co/300x600/6200EE/FFFFFF?text=Brain+Joke+Maker" alt="App Screenshot" class="relative rounded-[3rem] border-8 border-white shadow-2xl mx-auto w-64 md:w-80">
+                    <img src="https://placehold.co/300x600/6200EE/FFFFFF?text=Brain+Joke+Maker" alt="アプリ画面イメージ" class="relative rounded-[3rem] border-8 border-white shadow-2xl mx-auto w-64 md:w-80">
                 </div>
             </div>
         </div>
@@ -73,8 +73,8 @@
     <section id="features" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Complete Biometric Analysis</h2>
-                <p class="text-gray-600">Analyze five different aspects of your personality.</p>
+                <h2 class="text-3xl font-bold mb-4">完全バイオメトリック分析</h2>
+                <p class="text-gray-600">あなたの個性を5つの異なる角度から徹底解剖します。</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
@@ -83,24 +83,24 @@
                     <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 mb-6 text-2xl">
                         <i class="fas fa-brain"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Brain Scan</h3>
-                    <p class="text-gray-600">Left Brain vs Right Brain. Logic vs Instinct. See what thoughts dominate your mind.</p>
+                    <h3 class="text-xl font-bold mb-3">脳内スキャン</h3>
+                    <p class="text-gray-600">右脳派？左脳派？論理か本能か。あなたの思考を支配しているものが何なのか、一目でわかります。</p>
                 </div>
                 <!-- Feature 2 -->
                 <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
                     <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-pink-600 mb-6 text-2xl">
                         <i class="fas fa-heart"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Heart Monitor</h3>
-                    <p class="text-gray-600">Excitement vs Fear. Discover what truly makes your heart race.</p>
+                    <h3 class="text-xl font-bold mb-3">ハートモニター</h3>
+                    <p class="text-gray-600">ドキドキと恐怖。あなたの心を本当に揺さぶるものは何？心の中の欲望をチェック。</p>
                 </div>
                 <!-- Feature 3 -->
                 <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
                     <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 mb-6 text-2xl">
                         <i class="fas fa-user-friends"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Pair Compatibility</h3>
-                    <p class="text-gray-600">Enter two names to check compatibility. Perfect for friends, couples, or your favorite idols!</p>
+                    <h3 class="text-xl font-bold mb-3">相性診断</h3>
+                    <p class="text-gray-600">二人の名前を入力して相性をチェック。友達、カップル、あるいは大好きな推しとの相性も！</p>
                 </div>
             </div>
         </div>
@@ -112,24 +112,24 @@
             <div class="grid md:grid-cols-4 gap-8 mb-8">
                 <div class="col-span-2">
                     <span class="text-white text-xl font-bold flex items-center gap-2 mb-4">
-                        <i class="fas fa-brain"></i> Brain Joke Maker
+                        <i class="fas fa-brain"></i> 脳内ジョークメーカー
                     </span>
                     <p class="text-sm">
-                        The ultimate entertainment app for analyzing your subconscious. 
-                        Share your results and have fun with friends!
+                        深層心理を分析する究極のエンターテインメントアプリ。<br>
+                        分析結果をSNSでシェアして、友達と盛り上がろう！
                     </p>
                 </div>
                 <div>
-                    <h4 class="text-white font-bold mb-4">Legal</h4>
+                    <h4 class="text-white font-bold mb-4">法的事項</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="terms.html" class="hover:text-white transition">Terms of Service</a></li>
-                        <li><a href="privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="hover:text-white transition">利用規約</a></li>
+                        <li><a href="privacy.html" class="hover:text-white transition">プライバシーポリシー</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-white font-bold mb-4">Contact</h4>
+                    <h4 class="text-white font-bold mb-4">お問い合わせ</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="support.html" class="hover:text-white transition">Support Center</a></li>
+                        <li><a href="support.html" class="hover:text-white transition">サポートセンター</a></li>
                         <li><a href="mailto:devbyryosuke2025@gmial.com" class="hover:text-white transition">devbyryosuke2025@gmial.com</a></li>
                     </ul>
                 </div>
